@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="src/output.css" rel="stylesheet">
+    <title>Edna Clivatti - Gestão de Tráfego</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    
+        .roboto{
+            font-family: "Roboto", serif;
+        }
+
+        .markazi{
+            font-family: "Markazi Text", serif;
+        }
+        
+        .polka-bg{
+            opacity: 1;
+            background-image: radial-gradient(rgba(0, 0, 0, 0.75) 0.75px, rgba(255, 255, 255, 0) 0.75px);
+            background-size: 15px 15px;
+        }
+
+        .highlighted-text {
+            padding: 5px; /* Controls spacing */
+            box-decoration-break: clone;
+            background-color: rgba(58, 199, 235, 0.45);
+            -webkit-box-decoration-break: clone; /* For WebKit browsers */
+        }
+
+        @media (max-width: 900px) {
+            header{
+                flex-direction: column ;
+            }
+
+            #header-img-div{
+                max-width: 75% !important;
+                height: auto;
+            }
+
+            #about{
+                flex-direction: column;
+            }
+
+            #certification{
+                flex-direction: column;
+                align-items: center;
+            }
+
+            #certification div{
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+            #certification p{
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+            #contact #contact-img-div{
+                display: none;
+            }
+
+            #contact div{
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+        }
+    </style>
+</head>
+<body class="flex flex-col bg-cyan-50 polka-bg">
+    <header class="flex items-center justify-center max-w-5/6 gap-5 mx-auto px-5 py-12 h-fit w-full">
+        <div class="flex flex-col justify-center">
+            <div class="flex flex-col max-w-175 items-center w-fit text-center">
+                <p>
+                    <span class="text-[2.5rem] font-extrabold roboto antialiased drop-shadow-xl highlighted-text">
+                        Todo mundo precisa de uma solução para o seu negócio, eu posso te ajudar com a gestão de tráfego!
+                    </span>    
+                </p>
+                
+                <button class="w-fit px-4 py-2 font-bold text-[1.25rem] shadow bg-emerald-400 tracking-[0.1rem] text-emerald-950 rounded-md mt-2">
+                    <a href="https://www.instagram.com/aclivatti/?igsh=MWduczl2OTB1bmRvcw%3D%3D">Quero evoluir!</a>
+                </button>    
+            </div>
+        </div>
+        
+        <div class="flex max-w-2/9" id="header-img-div">
+            <img class="rounded-xl shadow-xl border-0 border-b-blue-100 bg-cyan-50" src="src/imgs/WhatsApp Image 2025-02-12 at 12.02.50.jpeg" alt="">    
+        </div>
+        
+    </header>
+    <section class="flex flex-col py-5 px-10 bg-cyan-100 h-auto w-full">
+        <h1 class="border-b border-cyan-700 border-dotted antialiased roboto font-bold text-[1.5rem]">Um pouco sobre mim:</h1>
+        <div id="about" class="flex h-full w-full gap-5 p-3">
+            <div class="bg-white rounded-xl w-full shadow px-4 py-3">
+                <h2 class="border-b border-gray-950 border-dotted antialiased roboto font-semibold italic text-[1rem] mb-2">Minha carreira:</h2>
+                <ul class="roboto text-[0.9rem]">
+                    <li>📌 Comecei minha trajetória no tráfego pago ao participar de um evento gratuito do Pedro Sobral, onde aprendi os fundamentos essenciais.</li>
+                    <li>📌 Desde então, venho estudando e aplicando estratégias para potencializar resultados no digital.</li>
+                    <li>📌 Estou sempre me atualizando com cursos e conteúdos sobre tráfego pago para oferecer melhores resultados.</li>
+                </ul>
+            </div>
+            <div class="bg-white rounded-xl w-full shadow px-4 py-3">
+                <h2 class="border-b border-gray-950 border-dotted antialiased roboto font-semibold italic text-[1rem] mb-2">O que eu faço:</h2> 
+                <ul class="roboto text-[0.9rem]">
+                    <li>📌 Gerenciamento de tráfego para negócios locais, infoprodutos e e-commerce.</li>
+                    <li>📌 Estratégias de anúncios no <strong>Meta Ads (Facebook e Instagram)</strong> e <strong>Google Ads</strong>.</li>
+                    <li>📌 Testes A/B e otimização contínua para melhorar conversões.</li>
+                </ul>           
+            </div>
+            <div class="bg-white rounded-xl w-full shadow px-4 py-3">
+                <h2 class="border-b border-gray-950 border-dotted antialiased roboto font-semibold italic text-[1rem] mb-2">Como posso te ajudar:</h2>
+                <ul class="roboto text-[0.9rem]">
+                    <li>📌 <strong>Análise gratuita</strong> da sua conta de anúncios e estratégias.</li>
+                    <li>📌 Planejamento de campanhas segmentadas para o seu nicho.</li>
+                    <li>📌 Acompanhamento e otimização para garantir o <strong>melhor custo-benefício</strong>.</li>
+                </ul>    
+            </div>
+        </div>
+    </section>
+    
+    <section class="flex flex-col m-7 rounded-3xl shadow-2xl py-5 px-10 bg-white">
+        <h1 class="border-b border-cyan-700 border-dotted antialiased roboto font-bold text-[1.5rem]">Certificação:</h1>
+        <div class="flex gap-3 py-3 items-start" id="certification">
+            <div class="flex w-1/4 max-w-xs">
+                <img class="rounded-xl shadow-xl border-0 border-b-blue-100 bg-cyan-50 w-full h-auto"
+                    src="src/imgs/WhatsApp Image 2025-02-24 at 17.12.23.jpeg" alt="">
+            </div>
+            <p class="w-3/4 text-justify">
+                Participar do evento online do Pedro Sobral sobre gestão de tráfego foi um divisor de águas na minha trajetória profissional.  
+                Antes disso, eu via o tráfego pago apenas como uma ferramenta de impulsionamento, mas durante o evento, compreendi sua complexidade e importância estratégica.  
+                Aprendi sobre segmentação de público, otimização de campanhas e análise de métricas, conhecimentos que fizeram toda a diferença na forma como enxergo o marketing digital.  
+                <br><br>
+                Esse evento me proporcionou não apenas aprendizado técnico, mas também uma nova visão sobre o impacto que uma gestão eficiente de tráfego pode ter nos negócios.  
+                Desde então, venho aprimorando minhas habilidades, aplicando estratégias testadas e buscando constantemente novas formas de otimizar campanhas.  
+                Foi ali que nasceu minha paixão por essa área, e hoje tenho certeza de que estou no caminho certo para ajudar empresas a alcançarem resultados incríveis com tráfego pago.   
+            </p>
+        </div>
+    </section>
+    
+    
+
+    <section class="flex m-7 mt-3 rounded-3xl gap-5" id="contact">
+        <div class="flex items-center w-1/4 max-w-xs" id="contact-img-div">
+            <img class="rounded-xl shadow-xl border-0 border-b-blue-100 bg-cyan-50" src="src/imgs/Sem título.jpg" alt="">    
+        </div>
+        <div class="flex flex-col w-3/4 bg-white rounded-xl shadow-2xl px-4 py-3">
+            <div class="flex flex-col h-full justify-between gap-3">
+                <h1 class="border-b border-cyan-700 border-dotted antialiased roboto font-bold text-[1.5rem]">Fale Comigo!</h1>
+                
+                <p class="text-center">
+                    <span class="text-[1.75rem] font-extrabold text-center roboto antialiased drop-shadow-xl highlighted-text">
+                        Vamos conversar sobre como posso te ajudar a alavancar o seu negócio? Abaixo estão os links para contato:
+                    </span>
+                    <ul class="flex justify-center gap-7.5 text-4xl">
+                        <li><a href="https://www.instagram.com/aclivatti/?igsh=MWduczl2OTB1bmRvcw%3D%3D" class="flex items-center gap-2"><i class="fa-brands fa-instagram"></i><span class="text-[1.1rem]">Instagram</span></a></li>
+                        <li><a href="https://www.facebook.com/clivattie?rdid=iNSjhMXYUtE1XjOQ&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1F6hjX73uP%2F" class="flex items-center gap-2"><i class="fa-brands fa-square-facebook"></i><span class="text-[1.1rem]">Facebook</span></a></li>
+                        <li><a href="https://wa.me/14996432323" class="flex items-center gap-2"><i class="fa-brands fa-whatsapp"></i><span class="text-[1.1rem]">WhatsApp</span></a></li>
+                    </ul>
+                </p>  
+            </div>
+        </div>
+    </section>
+    
+    <footer class="flex flex-col items-center justify-center bg-gray-900 text-white h-30 w-full">
+        <div class="flex flex-col items-center justify-center gap-1 w-full">
+            <p class="text-[0.95rem]">Desenvolvido por <span href="" class="font-bold">Victor Clivatti</span></p>
+            <hr class="w-1/5 min-w-75 border-t border-gray-700">
+            <ul class="flex gap-3">
+                <li><a href="https://github.com/VictorClvtt"><i class="fa-brands fa-square-github text-xl"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/victor-clivatti/"><i class="fa-brands fa-linkedin text-xl"></i></a></li>
+                <li><a href="https://www.instagram.com/victorclvtt/?igsh=MXFubHQwNzY1cjB5Zg%3D%3D"><i class="fa-brands fa-square-instagram text-xl"></i></a></li>
+            </ul>
+        </div>
+            
+    </footer>
+</body>
+</html>
